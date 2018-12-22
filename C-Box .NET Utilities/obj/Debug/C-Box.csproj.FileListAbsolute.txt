@@ -47,3 +47,4 @@ C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\b
 C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
 C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
+C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache

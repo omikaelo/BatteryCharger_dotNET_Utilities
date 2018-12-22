@@ -28,7 +28,7 @@ namespace C_Box
             ping = new Ping();
             try
             {
-                reply = ping.Send(ipAddress);
+                reply = ping.Send(ipAddress, 500);
                 if (reply.Status != IPStatus.Success)
                 {
                     ping.Dispose();
@@ -1165,6 +1165,23 @@ namespace C_Box
             if (!File.Exists(path))
                 return "";
             return File.ReadAllText(path).Replace("\r\n", "");
+        }
+
+        public string[] FormatDiagnosticEvents(string data)
+        {
+            string[] aux = null;
+            int counter = 0;
+            if (string.IsNullOrEmpty(data))
+                return null;
+            if (ConvertHexStringWithSpaceToBytes(data).Length % 4 != 0)
+                return null;
+            aux = new string[ConvertHexStringWithSpaceToBytes(data).Length / 4];
+            for (int i = 0; i < data.Length; i+= 12)
+            {
+                aux[counter] = counter != aux.Length - 1 ? data.Substring(i, 12).Trim() : data.Substring(i, 11).Trim();
+                counter++;
+            }
+            return aux;
         }
     }
 }
