@@ -1183,5 +1183,19 @@ namespace C_Box
             }
             return aux;
         }
+
+        public string GetValueFromITACRecipe(string[] data, string name)
+        {
+            if (data == null)
+                return "";
+            if (string.IsNullOrEmpty(name))
+                return "";
+            for (int i = 0; i < data.Length; i++)
+            {
+                if (data[i] == name)
+                    return data[i + 2];
+            }
+            return "";
+        }
     }
 }
