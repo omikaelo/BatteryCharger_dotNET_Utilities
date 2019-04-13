@@ -11,6 +11,7 @@ using System.Net;
 using System.Net.NetworkInformation;
 using System.Collections.Generic;
 using Microsoft.Win32;
+using NationalInstruments.DAQmx;
 
 namespace C_Box
 {
@@ -49,6 +50,56 @@ namespace C_Box
                     ping.Dispose();
                 throw e;
             }
+        }
+
+        public string[] ExtractAllSerialNumbers(string data)
+        {
+            string[] serialnumbers = data.Replace("\n", "-").Split('-');
+            string[] buffer = new string[4] { "", "", "", "" };
+            if (serialnumbers.Length > 0)
+            {
+                if (data.Contains("BATTERY 00:"))
+                    buffer[0] = serialnumbers.FirstOrDefault(x => x.Contains("BATTERY 00")).Replace("BATTERY 00:", "");
+                if (data.Contains("BATTERY 01:"))
+                    buffer[1] = serialnumbers.FirstOrDefault(x => x.Contains("BATTERY 01")).Replace("BATTERY 01:", "");
+                if (data.Contains("BATTERY 02:"))
+                    buffer[2] = serialnumbers.FirstOrDefault(x => x.Contains("BATTERY 02")).Replace("BATTERY 02:", "");
+                if (data.Contains("BATTERY 03:"))
+                    buffer[3] = serialnumbers.FirstOrDefault(x => x.Contains("BATTERY 03")).Replace("BATTERY 03:", "");
+            }
+            return buffer;
+        }
+
+        public bool CanMoveSlider(int SliderPosition, string port)
+        {
+            try
+            {
+                Task readPort = new Task();
+                readPort.DIChannels.CreateChannel(port, "", ChannelLineGrouping.OneChannelForAllLines);
+                DigitalSingleChannelReader DISMCSignals = new DigitalSingleChannelReader(readPort.Stream);
+                bool[] states = DISMCSignals.ReadSingleSampleMultiLine();
+                string binary = "";
+                foreach (bool state in states)
+                {
+                    if (state)
+                        binary += "1";
+                    else
+                        binary += "0";
+                }
+                char[] charArray = binary.ToCharArray();
+                Array.Reverse(charArray);
+                binary = new string(charArray);
+                int position = Convert.ToInt32(binary, 2);
+                if (SliderPosition == position)
+                    return false;
+                else
+                    return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
         }
 
         public string[] GetSectionFromConfigurationFile(string file, string section)

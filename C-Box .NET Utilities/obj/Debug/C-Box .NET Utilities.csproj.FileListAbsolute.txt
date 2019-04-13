@@ -1,6 +1,0 @@
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C-Box .NET Utilities.csprojAssemblyReference.cache
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C-Box .NET Utilities.csproj.CoreCompileInputs.cache
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb

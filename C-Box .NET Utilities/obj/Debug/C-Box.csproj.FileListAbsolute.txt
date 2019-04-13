@@ -1,50 +1,10 @@
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C-Box.csprojAssemblyReference.cache
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C-Box.csproj.CoreCompileInputs.cache
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box .NET Utilities\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\AVT.dll
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.dll
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\AVT.pdb
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\AVT.xml
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.xml
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
-C:\Users\zamtest\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.dll
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.dll
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\log4net.dll
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\AVT.pdb
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.xml
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.xml
-F:\CBOX Files EOL10\C drive\source\C-Box\C-Box .NET Utilities\bin\Debug\log4net.xml
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\AVT.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\log4net.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\AVT.pdb
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.xml
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\bin\Debug\log4net.xml
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\source\repos\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.dll
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.xml
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
-C:\Users\Lear\Documents\Visual Studio 2015\Projects\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.dll
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\C_Box.NET_Utilities.pdb
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.dll
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\INIFileParser.xml
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\obj\Debug\C-Box.csprojResolveAssemblyReference.cache
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.dll
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\obj\Debug\C_Box.NET_Utilities.pdb
+C:\Users\Lear\Documents\Z02F358\Codigo\dotNet\C-Box\C-Box .NET Utilities\bin\Debug\NationalInstruments.DAQmx.dll
