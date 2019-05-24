@@ -1248,5 +1248,11 @@ namespace C_Box
             }
             return "";
         }
+
+        public string GetBatteryExpirationDate(int daysToBAtteryExpiration)
+        {
+            DateTime currentDate = DateTime.Now;
+            return currentDate.AddDays(daysToBAtteryExpiration).ToString("yyyy-MM-dd HH:mm:ss.fff");
+        }
     }
 }
