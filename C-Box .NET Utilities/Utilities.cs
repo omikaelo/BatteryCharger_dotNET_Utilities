@@ -102,6 +102,22 @@ namespace C_Box
 
         }
 
+        public string[] GetSectionsFromIniFile(string file)
+        {
+            if (!File.Exists(file))
+                return null;
+            int counter = 0;
+            FileIniDataParser parser = new FileIniDataParser();
+            var sections = parser.ReadFile(file).Sections;
+            string[] section = new string[sections.Count];
+            foreach (var item in sections)
+            {
+                section[counter] = item.SectionName;
+                counter++;
+            }
+            return section;
+        }
+
         public string[] GetSectionFromConfigurationFile(string file, string section)
         {
             if (!File.Exists(file))
